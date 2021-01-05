@@ -46,8 +46,8 @@ const get = () => new Promise((resolve, reject) => {
   }).on("error", () => {
     reject()
   }).on("timeout", () => {
-		reject()
-	})
+    reject()
+  })
 })
 
 
